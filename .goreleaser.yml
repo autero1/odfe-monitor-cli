@@ -14,7 +14,7 @@ builds:
     env:
       - CGO_ENABLED=0
     ldflags:
-      - -X github.com/autero1/odfe-monitor-cli/commands.BuildVersion={{.Env.RELEASE_DRAFTER_VERSION}}
+      - -X github.com/autero1/odfe-monitor-cli/commands.BuildVersion={{.Env.APP_VERSION}}
 archives:
 - replacements:
     darwin: Darwin
