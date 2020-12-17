@@ -37,4 +37,4 @@ jobs:
           APP_VERSION: ${{ steps.vars.outputs.tag }}
       -
         name: Verify version
-        run: dist/odfe-monitor-cli_linux_amd64/odfe-monitor-cli version
+        run: dist/odfe-monitor-cli_linux_amd64/odfe-monitor-cli --version
